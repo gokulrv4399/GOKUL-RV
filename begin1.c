@@ -4,6 +4,12 @@ void main()
  int a;
  clrscr();
  scanf("%d",&a);
+ if(a==0)
+ {
+  printf("Zero");
+ }
+ else
+ {
  if(a<0)
  {
  printf("Negative");
@@ -11,6 +17,7 @@ void main()
  else
  {
  printf("Positive");
+ }
  }
  getch();
 }
