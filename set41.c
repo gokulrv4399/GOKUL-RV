@@ -2,13 +2,13 @@
 #include<conio.h>
 void main()
 {
-char str[20];
+char str1[20];
 int i,count=0;
 clrscr();
-gets(str);
-for(i=0;str[i]!='\0';i++)
+gets(str1);
+for(i=0;str1[i]!='\0';i++)
 {
-if(str[i]!=' ')
+if(str1[i]!=' ')
 {
 count++;
 }
